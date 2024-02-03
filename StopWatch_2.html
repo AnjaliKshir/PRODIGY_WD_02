@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./StopWatch2_style.css">
+</head>
+<body>
+    <div class="main_div">
+        <div id="time">00 : 00 : 00</div>
+        <ul id="lap_list"></ul>
+        <div class="buttons">
+            <button id="reset_btn" onclick="Reset()">Reset</button>
+            <button id="lap_btn" disabled onclick="Lap()" >Lap</button>
+            <button id="start_btn" onclick="Start()">Start</button>
+            <button id="stop_btn" onclick="Stop()">Stop</button>
+            <button id="resume_btn" onclick="Resume()">Resume</button>
+        </div>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700&family=Comfortaa:wght@700&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="./StopWatch_2_js.js"></script>
+
+
+</body>
+</html>
